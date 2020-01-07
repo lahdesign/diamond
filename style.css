@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+/* the main container */
+.boxContainer {
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+    
+
+.box {
+    font-weight: bold;
+    width: 60%;
+    padding: 40px;
+    font-size: 2.4em;
+    width: 1200px;
+}
+
+#light{
+    fill: rgba(89, 157, 252, 0.6);
+    animation: colorShift 5s infinite;
+}
+@keyframes colorShift{
+    0, 100%{ 
+        fill:rgba(240, 221, 15, 0.714);
+    }
+    50%{
+        fill:rgba(226, 116, 26, 0.795);
+    }
+}
+#medium{
+    fill:rgba(252, 89, 242, 0.73);
+    animation: colorShift2 3s infinite;
+}
+@keyframes colorShift2{
+    0, 100%{ 
+        fill:rgba(252, 89, 242, 0.73);
+    }
+    50%{
+        fill:rgba(35, 200, 230, .6);
+    }
+}
+#dark{
+    fill: rgba(89, 157, 252, 0.6);
+    animation: colorShift3 3s infinite;
+}
+@keyframes colorShift3{
+    0, 100%{ 
+        fill: rgba(89, 157, 252, 0.6);
+    }
+    50%{
+        fill:rgba(76, 200, 200, .8;
+    }
+}
+
+
+
+/* .cloud{
+    position: absolute;
+}  */
+/* .circleContainer {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    border: 3px solid black;
+} */
+
+.circle {
+    /* position: absolute; */
+    background-color: paleturquoise;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    text-align: center;
+    }
+.circle1 {
+     position: absolute;
+     top: 87%;
+     left: 43%;
+     }
+ .circle2 {
+    position: absolute;
+    top: 82%;
+    left: 35%;
+ }
+ .circle3 {
+    top: 85%;
+    left: 25%;
+    position: absolute;
+ }
+
+ .circle4 {
+    top: 80%;
+    left: 50%;
+    position: absolute;
+ }
+
