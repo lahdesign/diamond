@@ -16,7 +16,10 @@ body{
     text-align: center;
     padding-right: 60px;
     padding-top: 0%;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 20s; /* Safari 4+ */
+    -moz-animation:    slideOutLeft 20s; /* Fx 5+ */
+    -o-animation:      slideOutLeft 20s; /* Opera 12+ */
+    animation:         slideOutLeft 20s; /* IE 10+, Fx 29+ */
 }
 .boxContainer2 {
     /* height: 100vh; */
@@ -26,7 +29,10 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 25s; /* Safari 4+ */
+    -moz-animation:    slideOutLeft 25s; /* Fx 5+ */
+    -o-animation:      slideOutLeft 25s; /* Opera 12+ */
+    animation:         slideOutLeft 25s; /* IE 10+, Fx 29+ */
 }
 .boxContainer3 {
     /* height: 100vh; */
@@ -36,7 +42,10 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 30s; /* Safari 4+ */
+    -moz-animation:    slideOutLeft 30s; /* Fx 5+ */
+    -o-animation:      slideOutLeft 30s; /* Opera 12+ */
+    animation:         slideOutLeft 30s; /* IE 10+, Fx 29+ */
 }
 .boxContainer4 {
     /* height: 100vh; */
@@ -46,7 +55,10 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 35s; /* Safari 4+ */
+    -moz-animation:    slideOutLeft 35s; /* Fx 5+ */
+    -o-animation:      slideOutLeft 35s; /* Opera 12+ */
+    animation:         slideOutLeft 35s; /* IE 10+, Fx 29+ */
 }
 .boxContainer5 {
     /* height: 100vh; */
@@ -56,7 +68,10 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 10s; /* Safari 4+ */
+  -moz-animation:    slideOutLeft 10s; /* Fx 5+ */
+  -o-animation:      slideOutLeft 10s; /* Opera 12+ */
+  animation:         slideOutLeft 10s; /* IE 10+, Fx 29+ */
 }
 .boxContainer6 {
     /* height: 100vh; */
@@ -66,7 +81,10 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
-    animation-duration: 25s;
+    -webkit-animation: slideOutLeft 20s; /* Safari 4+ */
+  -moz-animation:    slideOutLeft 20s; /* Fx 5+ */
+  -o-animation:      slideOutLeft 20s; /* Opera 12+ */
+  animation:         slideOutLeft 20s; /* IE 10+, Fx 29+ */
 }
 
 .entire{
@@ -89,7 +107,7 @@ body{
 
 #light{
     /* fill: rgba(89, 157, 252, 0.6); */
-    animation: colorShift 5s infinite;
+    animation: colorShift 7s infinite;
 }
 @keyframes colorShift{
     0%, 100%{ 
