@@ -3,12 +3,32 @@
     margin: 0;
     box-sizing: border-box;
     }
-
+body{
+    background-color:paleturquoise;
+}
 /* the main container */
 .boxContainer {
-    height: 100vh;
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding-right: 60px;
+    padding-top: 0%;
+}
+.boxContainer2 {
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     text-align: center;
     padding: 20px;
+}
+
+.boxContainer:nth-child(odd){
+    transform: rotate(180deg);
 }
     
 
@@ -21,36 +41,36 @@
 }
 
 #light{
-    fill: rgba(89, 157, 252, 0.6);
+    /* fill: rgba(89, 157, 252, 0.6); */
     animation: colorShift 5s infinite;
 }
 @keyframes colorShift{
-    0, 100%{ 
-        fill:rgba(240, 221, 15, 0.714);
+    0%, 100%{ 
+        fill:rgba(255, 234, 5, 0.432);
     }
     50%{
-        fill:rgba(226, 116, 26, 0.795);
+        fill:rgba(251, 255, 0, 0.205);
     }
 }
 #medium{
-    fill:rgba(252, 89, 242, 0.73);
+    /* fill:rgba(252, 89, 242, 0.73); */
     animation: colorShift2 3s infinite;
 }
 @keyframes colorShift2{
-    0, 100%{ 
-        fill:rgba(252, 89, 242, 0.73);
+    0%, 100%{ 
+        fill:rgba(253, 4, 120, 0.568);
     }
     50%{
-        fill:rgba(35, 200, 230, .6);
+        fill:rgba(255, 15, 195, 0.486);
     }
 }
 #dark{
-    fill: rgba(89, 157, 252, 0.6);
+    /* fill: rgba(89, 157, 252, 0.6); */
     animation: colorShift3 3s infinite;
 }
 @keyframes colorShift3{
-    0, 100%{ 
-        fill: rgba(89, 157, 252, 0.6);
+    0%, 100%{ 
+        fill: rgba(21, 113, 243, 0.37);
     }
     50%{
         fill:rgba(76, 200, 200, .8;
