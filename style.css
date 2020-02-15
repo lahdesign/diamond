@@ -48,13 +48,33 @@ body{
     padding: 20px;
     animation-duration: 25s;
 }
+.boxContainer5 {
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+    animation-duration: 25s;
+}
+.boxContainer6 {
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+    animation-duration: 25s;
+}
 
 .entire{
     animation-duration: 25s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
   }
-.boxContainer:nth-child(2n){
+.entire:nth-child(odd){
     transform: rotate(180deg);
 }
     
