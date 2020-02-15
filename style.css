@@ -26,8 +26,25 @@ body{
     text-align: center;
     padding: 20px;
 }
-
-.boxContainer:nth-child(odd){
+.boxContainer3 {
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+}
+.boxContainer4 {
+    /* height: 100vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+}
+.boxContainer:nth-child(2n){
     transform: rotate(180deg);
 }
     
